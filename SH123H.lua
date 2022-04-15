@@ -2,7 +2,7 @@ local userInput = game:service('UserInputService')
 			local runService = game:service('RunService')
 			
 			userInput.InputBegan:connect(function(Key)
-				if Key.KeyCode == Enum.KeyCode.G then
+				if Key.KeyCode == Enum.KeyCode.H then
 					Enabled = not Enabled
 					if Enabled == true then
 						repeat
